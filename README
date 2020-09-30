@@ -1,0 +1,10 @@
+Codes are in 
+	\src\main\java\com\uwaterloo\yilunbai
+		Consumer.java
+		Sender.java
+
+To run the Consumer:
+	mvn exec:java -Dexec.mainClass=com.uwaterloo.yilunbai.Consumer -Dexec.args="<host> <username> <password>"
+	
+To run the Sender:
+	mvn exec:java -Dexec.mainClass=com.uwaterloo.yilunbai.Sender -Dexec.args="<host> <username> <password> <datasize>"
